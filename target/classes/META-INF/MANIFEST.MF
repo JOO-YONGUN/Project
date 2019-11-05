@@ -1,0 +1,85 @@
+Manifest-Version: 1.0
+Built-By: 82103
+Class-Path: lib/spring-context-4.3.10.RELEASE.jar lib/spring-aop-4.3.1
+ 0.RELEASE.jar lib/spring-beans-4.3.10.RELEASE.jar lib/spring-core-4.3
+ .10.RELEASE.jar lib/spring-expression-4.3.10.RELEASE.jar lib/spring-w
+ ebmvc-4.3.10.RELEASE.jar lib/spring-web-4.3.10.RELEASE.jar lib/aspect
+ jrt-1.8.1.jar lib/slf4j-api-1.6.6.jar lib/jcl-over-slf4j-1.6.6.jar li
+ b/slf4j-log4j12-1.6.6.jar lib/log4j-1.2.15.jar lib/javax.inject-1.jar
+  lib/jstl-1.2.jar lib/jstl-api-1.2.jar lib/servlet-api-2.5.jar lib/js
+ p-api-2.1.jar lib/mybatis-3.2.2.jar lib/mybatis-spring-1.2.0.jar lib/
+ spring-jdbc-4.3.10.RELEASE.jar lib/spring-tx-4.3.10.RELEASE.jar lib/c
+ ommons-dbcp2-2.1.jar lib/commons-pool2-2.3.jar lib/commons-logging-1.
+ 2.jar lib/mysql-connector-java-5.1.31.jar lib/postgresql-42.2.2.jar l
+ ib/mariadb-java-client-2.5.0.jar lib/javax.annotation-api-1.2.jar lib
+ /aspectjweaver-1.5.4.jar lib/java-jwt-3.1.0.jar lib/jackson-databind-
+ 2.8.4.jar lib/jackson-annotations-2.8.0.jar lib/jackson-core-2.8.4.ja
+ r lib/commons-codec-1.10.jar lib/bcprov-jdk15on-1.55.jar lib/mongo-ja
+ va-driver-3.4.2.jar lib/spring-data-mongodb-1.9.1.RELEASE.jar lib/spr
+ ing-data-commons-1.12.1.RELEASE.jar lib/httpclient-4.5.6.jar lib/http
+ core-4.4.10.jar lib/httpasyncclient-4.0.2.jar lib/httpcore-nio-4.3.2.
+ jar lib/httpmime-4.3.6.jar lib/json-20140107.jar lib/unirest-java-1.4
+ .9.jar lib/jsch-0.1.50.jar lib/log4jdbc-remix-0.2.7.jar lib/commons-f
+ ileupload-1.3.3.jar lib/commons-io-2.2.jar lib/springfox-swagger2-2.6
+ .1.jar lib/swagger-annotations-1.5.10.jar lib/swagger-models-1.5.10.j
+ ar lib/springfox-spi-2.6.1.jar lib/springfox-core-2.6.1.jar lib/sprin
+ gfox-schema-2.6.1.jar lib/springfox-swagger-common-2.6.1.jar lib/spri
+ ngfox-spring-web-2.6.1.jar lib/guava-18.0.jar lib/classmate-1.3.1.jar
+  lib/spring-plugin-core-1.2.0.RELEASE.jar lib/spring-plugin-metadata-
+ 1.2.0.RELEASE.jar lib/mapstruct-1.0.0.Final.jar lib/springfox-swagger
+ -ui-2.6.1.jar lib/aws-java-sdk-1.11.75.jar lib/aws-java-sdk-pinpoint-
+ 1.11.75.jar lib/jmespath-java-1.11.75.jar lib/aws-java-sdk-xray-1.11.
+ 75.jar lib/aws-java-sdk-opsworkscm-1.11.75.jar lib/aws-java-sdk-suppo
+ rt-1.11.75.jar lib/aws-java-sdk-simpledb-1.11.75.jar lib/aws-java-sdk
+ -servicecatalog-1.11.75.jar lib/aws-java-sdk-servermigration-1.11.75.
+ jar lib/aws-java-sdk-simpleworkflow-1.11.75.jar lib/aws-java-sdk-stor
+ agegateway-1.11.75.jar lib/aws-java-sdk-route53-1.11.75.jar lib/aws-j
+ ava-sdk-s3-1.11.75.jar lib/aws-java-sdk-importexport-1.11.75.jar lib/
+ aws-java-sdk-sts-1.11.75.jar lib/aws-java-sdk-sqs-1.11.75.jar lib/aws
+ -java-sdk-rds-1.11.75.jar lib/aws-java-sdk-redshift-1.11.75.jar lib/a
+ ws-java-sdk-elasticbeanstalk-1.11.75.jar lib/aws-java-sdk-glacier-1.1
+ 1.75.jar lib/aws-java-sdk-iam-1.11.75.jar lib/aws-java-sdk-datapipeli
+ ne-1.11.75.jar lib/aws-java-sdk-elasticloadbalancing-1.11.75.jar lib/
+ aws-java-sdk-elasticloadbalancingv2-1.11.75.jar lib/aws-java-sdk-emr-
+ 1.11.75.jar lib/aws-java-sdk-elasticache-1.11.75.jar lib/aws-java-sdk
+ -elastictranscoder-1.11.75.jar lib/aws-java-sdk-ec2-1.11.75.jar lib/a
+ ws-java-sdk-dynamodb-1.11.75.jar lib/aws-java-sdk-sns-1.11.75.jar lib
+ /aws-java-sdk-budgets-1.11.75.jar lib/aws-java-sdk-cloudtrail-1.11.75
+ .jar lib/aws-java-sdk-cloudwatch-1.11.75.jar lib/aws-java-sdk-logs-1.
+ 11.75.jar lib/aws-java-sdk-events-1.11.75.jar lib/aws-java-sdk-cognit
+ oidentity-1.11.75.jar lib/aws-java-sdk-cognitosync-1.11.75.jar lib/aw
+ s-java-sdk-directconnect-1.11.75.jar lib/aws-java-sdk-cloudformation-
+ 1.11.75.jar lib/aws-java-sdk-cloudfront-1.11.75.jar lib/aws-java-sdk-
+ kinesis-1.11.75.jar lib/aws-java-sdk-opsworks-1.11.75.jar lib/aws-jav
+ a-sdk-ses-1.11.75.jar lib/aws-java-sdk-autoscaling-1.11.75.jar lib/aw
+ s-java-sdk-cloudsearch-1.11.75.jar lib/aws-java-sdk-cloudwatchmetrics
+ -1.11.75.jar lib/aws-java-sdk-codedeploy-1.11.75.jar lib/aws-java-sdk
+ -codepipeline-1.11.75.jar lib/aws-java-sdk-kms-1.11.75.jar lib/aws-ja
+ va-sdk-config-1.11.75.jar lib/aws-java-sdk-lambda-1.11.75.jar lib/aws
+ -java-sdk-ecs-1.11.75.jar lib/aws-java-sdk-ecr-1.11.75.jar lib/aws-ja
+ va-sdk-cloudhsm-1.11.75.jar lib/aws-java-sdk-ssm-1.11.75.jar lib/aws-
+ java-sdk-workspaces-1.11.75.jar lib/aws-java-sdk-machinelearning-1.11
+ .75.jar lib/aws-java-sdk-directory-1.11.75.jar lib/aws-java-sdk-efs-1
+ .11.75.jar lib/aws-java-sdk-codecommit-1.11.75.jar lib/aws-java-sdk-d
+ evicefarm-1.11.75.jar lib/aws-java-sdk-elasticsearch-1.11.75.jar lib/
+ aws-java-sdk-waf-1.11.75.jar lib/aws-java-sdk-marketplacecommerceanal
+ ytics-1.11.75.jar lib/aws-java-sdk-inspector-1.11.75.jar lib/aws-java
+ -sdk-iot-1.11.75.jar lib/aws-java-sdk-api-gateway-1.11.75.jar lib/aws
+ -java-sdk-acm-1.11.75.jar lib/aws-java-sdk-gamelift-1.11.75.jar lib/a
+ ws-java-sdk-dms-1.11.75.jar lib/aws-java-sdk-marketplacemeteringservi
+ ce-1.11.75.jar lib/aws-java-sdk-cognitoidp-1.11.75.jar lib/aws-java-s
+ dk-discovery-1.11.75.jar lib/aws-java-sdk-applicationautoscaling-1.11
+ .75.jar lib/aws-java-sdk-snowball-1.11.75.jar lib/aws-java-sdk-rekogn
+ ition-1.11.75.jar lib/aws-java-sdk-polly-1.11.75.jar lib/aws-java-sdk
+ -lightsail-1.11.75.jar lib/aws-java-sdk-stepfunctions-1.11.75.jar lib
+ /aws-java-sdk-health-1.11.75.jar lib/aws-java-sdk-codebuild-1.11.75.j
+ ar lib/aws-java-sdk-appstream-1.11.75.jar lib/aws-java-sdk-shield-1.1
+ 1.75.jar lib/aws-java-sdk-batch-1.11.75.jar lib/aws-java-sdk-core-1.1
+ 1.75.jar lib/ion-java-1.0.1.jar lib/jackson-dataformat-cbor-2.6.6.jar
+  lib/joda-time-2.8.1.jar lib/aws-java-sdk-models-1.11.75.jar lib/aws-
+ java-sdk-swf-libraries-1.11.22.jar
+Build-Jdk: 1.8.0_201
+Created-By: Maven Integration for Eclipse
+Main-Class: org.springframework.batch.core.launch.support.CommandLineJ
+ obRunner
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+
+	<!-- 
+	<bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations" value="classpath:/jdbc.properties" />
+		<property name="fileEncoding" value="UTF-8" />
+	</bean>
+	
+	*************************************************************************************
+	*
+	* Postgre Sql
+	*
+	*************************************************************************************
+	<bean id="data-source-postgre" class="org.apache.commons.dbcp2.BasicDataSource" destroy-method="close">
+		<property name="driverClassName" value="${jdbc.postgre.driverClassName}" />
+		<property name="url" value="${jdbc.postgre.url}" />
+		<property name="username" value="${jdbc.postgre.username}" />
+		<property name="password" value="${jdbc.postgre.password}" />
+	</bean>
+	 -->
+
+
+</beans>

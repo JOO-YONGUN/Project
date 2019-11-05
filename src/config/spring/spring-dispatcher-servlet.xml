@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+	xmlns="http://www.springframework.org/schema/beans" 
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:beans="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.1.xsd">
+
+	<!-- Enables the Spring MVC @Controller programming model -->
+	<mvc:annotation-driven />
+	
+	<context:component-scan base-package="com" />
+	<beans:bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter" />
+	
+	<mvc:resources location="/resources/" 	mapping="/resources/**" />
+	<mvc:resources location="/image/**" 	mapping="/image/" />
+	<mvc:resources location="/css/**" 		mapping="/css/" />
+	<mvc:resources location="/js/**" 		mapping="/js/" />
+	
+	<beans:bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<beans:property name="prefix" value="/WEB-INF/jsp/" />
+		<beans:property name="suffix" value=".jsp" />
+	</beans:bean>
+	
+	<!-- Interceptor -->
+	<beans:bean id="authInterceptor" class="com.common.servlet.AuthInterceptor"/>
+	<mvc:interceptors>
+		<mvc:interceptor>
+			<!-- 포함되는 url -->
+			<mvc:mapping path="/auth/*"/>
+			<beans:ref bean="authInterceptor"/>
+		</mvc:interceptor>
+	</mvc:interceptors> 
+	
+	<!-- MultipartResolver -->
+	<beans:bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+		<beans:property name="maxUploadSize" value="200000000" />
+		<beans:property name="maxInMemorySize" value="10240" />
+	</beans:bean>
+
+</beans>

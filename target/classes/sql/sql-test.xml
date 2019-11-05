@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="test">
+
+	<!-- postgre sql 오늘 날짜를 가지고 온다  -->
+	<!-- 
+	<select id="getToday"  resultType="java.lang.String">
+		select current_timestamp
+	</select>
+	 -->
+	
+	<!-- MariaDB 오늘 날짜를 가지고 온다 -->
+	<select id="getToday"  resultType="java.lang.String">
+		select now()
+	</select>
+	
+</mapper>
+
+
+
+
+
+
